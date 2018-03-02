@@ -503,40 +503,43 @@ difficulty_type Currency::nextDifficulty(std::vector<uint64_t> timestamps,
   }
 
   size_t length = timestamps.size();
-  assert(length == cumulativeDifficulties.size());
-  assert(length <= m_difficultyWindow);
-  if (length <= 1) {
-    return 1;
-  }
+		assert(length == cumulativeDifficulties.size());
+		assert(length <= m_difficultyWindow_2);
+		if (length <= 1) {
+			return 1;
+		}
 
-  sort(timestamps.begin(), timestamps.end());
+		sort(timestamps.begin(), timestamps.end());
 
-  size_t cutBegin, cutEnd;
-  assert(2 * m_difficultyCut <= m_difficultyWindow - 2);
-  if (length <= m_difficultyWindow - 2 * m_difficultyCut) {
-    cutBegin = 0;
-    cutEnd = length;
-  } else {
-    cutBegin = (length - (m_difficultyWindow - 2 * m_difficultyCut) + 1) / 2;
-    cutEnd = cutBegin + (m_difficultyWindow - 2 * m_difficultyCut);
-  }
-  assert(/*cut_begin >= 0 &&*/ cutBegin + 2 <= cutEnd && cutEnd <= length);
-  uint64_t timeSpan = timestamps[cutEnd - 1] - timestamps[cutBegin];
-  if (timeSpan == 0) {
-    timeSpan = 1;
-  }
+		uint64_t timeSpan = timestamps.back() - timestamps.front();
+		if (timeSpan == 0) {
+			timeSpan = 1;
+		}
 
-  difficulty_type totalWork = cumulativeDifficulties[cutEnd - 1] - cumulativeDifficulties[cutBegin];
-  assert(totalWork > 0);
+		difficulty_type totalWork = cumulativeDifficulties.back() - cumulativeDifficulties.front();
+		assert(totalWork > 0);
 
-  uint64_t low, high;
-  low = mul128(totalWork, m_difficultyTarget, &high);
-  if (high != 0 || low + timeSpan - 1 < low) {
-    return 0;
-  }
+		// uint64_t nextDiffZ = totalWork * m_difficultyTarget / timeSpan; 
 
-  return (low + timeSpan - 1) / timeSpan;
+		uint64_t low, high;
+		low = mul128(totalWork, m_difficultyTarget, &high);
+		// blockchain error "Difficulty overhead" if this function returns zero
+		if (high != 0) {
+			return 0;
+		}
+
+		uint64_t nextDiffZ = low / timeSpan;
+
+		// minimum limit
+		if (nextDiffZ <= 100000) {
+			nextDiffZ = 100000;
+		}
+
+		return nextDiffZ;
+
 }
+
+
 
 bool Currency::checkProofOfWork(Crypto::cn_context& context, const Block& block, difficulty_type currentDiffic,
   Crypto::Hash& proofOfWork) const {

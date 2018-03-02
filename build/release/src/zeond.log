@@ -1,0 +1,197 @@
+2018-Mar-02 14:46:48.869152 INFO [daemon] ZEON v0.1.0.royal0001(0.1-g72946d9)
+2018-Mar-02 14:46:48.869412 INFO [daemon] Module folder: ./zeond
+2018-Mar-02 14:46:48.870980 INFO [daemon] Initializing p2p server...
+2018-Mar-02 14:46:48.871184 INFO [node_server] Binding on 0.0.0.0:21002
+2018-Mar-02 14:46:48.871297 INFO [node_server] Net service binded on 0.0.0.0:21002
+2018-Mar-02 14:46:48.872705 INFO [node_server] Attempting to add IGD port mapping.
+2018-Mar-02 14:46:52.877613 INFO [node_server] No IGD was found.
+2018-Mar-02 14:46:52.877830 INFO [daemon] P2p server initialized OK
+2018-Mar-02 14:46:52.877897 INFO [daemon] Initializing core...
+2018-Mar-02 14:46:52.878173 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Mar-02 14:46:52.961700 INFO [Blockchain] Blockchain initialized. last block: 0, d268.h22.m58.s37 time ago, current difficulty: 1
+2018-Mar-02 14:46:52.962629 INFO [daemon] Core initialized OK
+2018-Mar-02 14:46:52.963018 INFO [daemon] Starting core rpc server on address 127.0.0.1:21006
+2018-Mar-02 14:46:52.963173 INFO [daemon] Core rpc server started ok
+2018-Mar-02 14:46:52.963252 INFO [daemon] Starting p2p net loop...
+2018-Mar-02 14:46:52.963310 INFO [node_server] Starting node_server
+2018-Mar-02 14:46:52.964686 INFO [protocol] [46.10.180.254:54455 INC] Sync data returned unknown top block: 0 -> 99965 [99965 blocks (138 days) behind] 
+2018-Mar-02 14:46:52.964686 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:52.966940 INFO [protocol] [89.201.140.177:50629 INC] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:52.966940 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:52.968212 INFO [protocol] 
+2018-Mar-02 14:46:52.968212 INFO [protocol] **********************************************************************
+2018-Mar-02 14:46:52.968212 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Mar-02 14:46:52.968212 INFO [protocol] 
+2018-Mar-02 14:46:52.968212 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Mar-02 14:46:52.968212 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Mar-02 14:46:52.968212 INFO [protocol] 
+2018-Mar-02 14:46:52.968212 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Mar-02 14:46:52.968212 INFO [protocol] **********************************************************************
+2018-Mar-02 14:46:52.968993 INFO [core] 
+2018-Mar-02 14:46:52.968993 INFO [core] **********************************************************************
+2018-Mar-02 14:46:52.968993 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Mar-02 14:46:52.968993 INFO [core] 
+2018-Mar-02 14:46:52.968993 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Mar-02 14:46:52.968993 INFO [core] 
+2018-Mar-02 14:46:52.968993 INFO [core] Use "help" command to see the list of available commands.
+2018-Mar-02 14:46:52.968993 INFO [core] 
+2018-Mar-02 14:46:52.968993 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Mar-02 14:46:52.968993 INFO [core] **********************************************************************
+2018-Mar-02 14:46:52.969611 WARNING [node_server] [178.62.201.169:60405 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-02 14:46:53.137081 ERROR [protocol] [89.201.140.177:50629 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:53.200324 INFO [protocol] [185.206.147.118:51895 INC] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:53.200324 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:53.337952 ERROR [protocol] [185.206.147.118:51895 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:55.207648 INFO [protocol] [89.201.140.177:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:55.207648 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:55.269789 ERROR [protocol] [89.201.140.177:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:55.381247 INFO [protocol] [185.206.147.118:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:55.381247 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:55.389353 ERROR [protocol] [185.206.147.118:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:55.608000 INFO [protocol] [89.201.140.177:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:55.608000 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:55.672749 ERROR [protocol] [89.201.140.177:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:55.782305 INFO [protocol] [185.206.147.118:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:55.782305 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:55.793501 ERROR [protocol] [185.206.147.118:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:56.017577 INFO [protocol] [89.201.140.177:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:56.017577 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:56.079356 ERROR [protocol] [89.201.140.177:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:56.193903 INFO [protocol] [185.206.147.118:31002 OUT] Sync data returned unknown top block: 0 -> 99966 [99966 blocks (138 days) behind] 
+2018-Mar-02 14:46:56.193903 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:46:56.205169 ERROR [protocol] [185.206.147.118:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:56.369818 INFO [node_server] Stop signal sent
+2018-Mar-02 14:46:56.369982 INFO [node_server] Stopping NodeServer and it's2 connections...
+2018-Mar-02 14:46:56.465210 ERROR [protocol] [46.10.180.254:54455 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:46:57.370601 INFO [node_server] NodeServer loop stopped
+2018-Mar-02 14:46:57.370785 INFO [daemon] p2p net loop stopped
+2018-Mar-02 14:46:57.370853 INFO [daemon] Stopping core rpc server...
+2018-Mar-02 14:46:57.370987 INFO [daemon] Deinitializing core...
+2018-Mar-02 14:46:57.371043 INFO [miner] Mining has been stopped, 0 finished
+2018-Mar-02 14:46:57.371225 INFO [Blockchain] Saving blockchain...
+2018-Mar-02 14:46:57.371325 INFO [BlockCacheSerializer] - saving block index...
+2018-Mar-02 14:46:57.371423 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Mar-02 14:46:57.371475 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Mar-02 14:46:57.371525 INFO [BlockCacheSerializer] - saving outputs...
+2018-Mar-02 14:46:57.371574 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Mar-02 14:46:57.371624 INFO [BlockCacheSerializer] - saving deposit index...
+2018-Mar-02 14:46:57.371672 INFO [BlockCacheSerializer] Serialization time: 0ms
+2018-Mar-02 14:46:57.371742 INFO [Blockchain] Saving blockchain indices...
+2018-Mar-02 14:46:57.371822 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Mar-02 14:46:57.371884 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Mar-02 14:46:57.371941 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Mar-02 14:46:57.372011 INFO [daemon] Deinitializing p2p...
+2018-Mar-02 14:46:57.372801 INFO [miner] Mining has been stopped, 0 finished
+2018-Mar-02 14:46:57.373012 INFO [daemon] Node stopped.
+2018-Mar-02 14:50:09.426588 INFO [daemon] ZEON v0.1.0.royal0001(0.1-g72946d9)
+2018-Mar-02 14:50:09.427125 INFO [daemon] Module folder: ./zeond
+2018-Mar-02 14:50:09.430202 INFO [daemon] Initializing p2p server...
+2018-Mar-02 14:50:09.430881 INFO [node_server] Binding on 0.0.0.0:21002
+2018-Mar-02 14:50:09.431239 INFO [node_server] Net service binded on 0.0.0.0:21002
+2018-Mar-02 14:50:09.431552 INFO [node_server] Attempting to add IGD port mapping.
+2018-Mar-02 14:50:13.436996 INFO [node_server] No IGD was found.
+2018-Mar-02 14:50:13.437509 INFO [daemon] P2p server initialized OK
+2018-Mar-02 14:50:13.437730 INFO [daemon] Initializing core...
+2018-Mar-02 14:50:13.438125 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Mar-02 14:50:13.521747 INFO [Blockchain] Blockchain initialized. last block: 0, d268.h23.m1.s58 time ago, current difficulty: 1
+2018-Mar-02 14:50:13.522308 INFO [daemon] Core initialized OK
+2018-Mar-02 14:50:13.522760 INFO [daemon] Starting core rpc server on address 127.0.0.1:21006
+2018-Mar-02 14:50:13.523160 INFO [daemon] Core rpc server started ok
+2018-Mar-02 14:50:13.523521 INFO [daemon] Starting p2p net loop...
+2018-Mar-02 14:50:13.523844 INFO [node_server] Starting node_server
+2018-Mar-02 14:50:13.525393 INFO [protocol] [173.192.191.228:58667 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:13.525393 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:13.528520 INFO [protocol] [46.10.180.254:54524 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:13.528520 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:13.530688 INFO [protocol] 
+2018-Mar-02 14:50:13.530688 INFO [protocol] **********************************************************************
+2018-Mar-02 14:50:13.530688 INFO [protocol] You are now synchronized with the network. You may now start simplewallet.
+2018-Mar-02 14:50:13.530688 INFO [protocol] 
+2018-Mar-02 14:50:13.530688 INFO [protocol] Please note, that the blockchain will be saved only after you quit the daemon with "exit" command or if you use "save" command.
+2018-Mar-02 14:50:13.530688 INFO [protocol] Otherwise, you will possibly need to synchronize the blockchain again.
+2018-Mar-02 14:50:13.530688 INFO [protocol] 
+2018-Mar-02 14:50:13.530688 INFO [protocol] Use "help" command to see the list of available commands.
+2018-Mar-02 14:50:13.530688 INFO [protocol] **********************************************************************
+2018-Mar-02 14:50:13.533473 INFO [core] 
+2018-Mar-02 14:50:13.533473 INFO [core] **********************************************************************
+2018-Mar-02 14:50:13.533473 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Mar-02 14:50:13.533473 INFO [core] 
+2018-Mar-02 14:50:13.533473 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Mar-02 14:50:13.533473 INFO [core] 
+2018-Mar-02 14:50:13.533473 INFO [core] Use "help" command to see the list of available commands.
+2018-Mar-02 14:50:13.533473 INFO [core] 
+2018-Mar-02 14:50:13.533473 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Mar-02 14:50:13.533473 INFO [core] **********************************************************************
+2018-Mar-02 14:50:13.535930 WARNING [node_server] [178.62.201.169:51140 INC] Exception in connectionHandler: TcpConnection::read
+2018-Mar-02 14:50:14.084674 ERROR [protocol] [173.192.191.228:58667 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:15.960003 INFO [protocol] [191.102.253.50:40185 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:15.960003 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:16.195891 INFO [protocol] [173.192.191.228:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:16.195891 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:16.356314 ERROR [protocol] [173.192.191.228:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:16.787808 ERROR [protocol] [191.102.253.50:40185 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:20.427733 INFO [protocol] [208.66.208.41:58280 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:20.427733 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:20.751814 ERROR [protocol] [208.66.208.41:58280 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:22.026922 INFO [protocol] [191.102.253.50:41769 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:22.026922 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:22.824375 ERROR [protocol] [191.102.253.50:41769 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:23.622736 ERROR [protocol] [46.10.180.254:54524 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:23.937838 INFO [protocol] [173.212.213.225:40172 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:23.937838 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:24.008047 ERROR [protocol] [173.212.213.225:40172 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:26.752985 INFO [protocol] [18.216.107.49:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:26.752985 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:26.753816 ERROR [protocol] [18.216.107.49:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:31.149662 INFO [protocol] [106.111.66.130:51825 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:31.149662 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:31.551331 ERROR [protocol] [106.111.66.130:51825 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:31.555127 INFO [protocol] [138.201.159.213:40011 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:31.555127 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:31.592942 ERROR [protocol] [138.201.159.213:40011 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:32.060288 INFO [protocol] [89.201.140.177:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:32.060288 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:32.109808 INFO [protocol] [78.46.85.142:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:32.109808 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:32.120658 ERROR [protocol] [78.46.85.142:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:32.125251 ERROR [protocol] [89.201.140.177:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:33.119579 INFO [protocol] [103.219.249.59:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:33.119579 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:33.292845 INFO [protocol] [188.214.30.201:31002 OUT] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:33.292845 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:33.335736 ERROR [protocol] [188.214.30.201:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:33.376843 ERROR [protocol] [103.219.249.59:31002 OUT] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:34.161451 INFO [protocol] [91.140.89.65:28675 INC] Sync data returned unknown top block: 0 -> 99967 [99967 blocks (138 days) behind] 
+2018-Mar-02 14:50:34.161451 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:44.259402 ERROR [protocol] [91.140.89.65:28675 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:47.709493 INFO [protocol] [23.228.238.146:48926 INC] Sync data returned unknown top block: 0 -> 99968 [99968 blocks (138 days) behind] 
+2018-Mar-02 14:50:47.709493 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:49.547111 INFO [protocol] [162.218.211.151:41616 INC] Sync data returned unknown top block: 0 -> 99968 [99968 blocks (138 days) behind] 
+2018-Mar-02 14:50:49.547111 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:50.035333 ERROR [protocol] [162.218.211.151:41616 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:50.240167 INFO [protocol] [18.216.107.49:38652 INC] Sync data returned unknown top block: 0 -> 99968 [99968 blocks (138 days) behind] 
+2018-Mar-02 14:50:50.240167 INFO [protocol] SYNCHRONIZATION started
+2018-Mar-02 14:50:50.545767 ERROR [protocol] [18.216.107.49:38652 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:53.228057 INFO [node_server] Stop signal sent
+2018-Mar-02 14:50:53.228688 INFO [node_server] Stopping NodeServer and it's1 connections...
+2018-Mar-02 14:50:53.373343 ERROR [protocol] [23.228.238.146:48926 INC] Failed to handle NOTIFY_REQUEST_CHAIN. block_ids doesn't end with genesis block ID
+2018-Mar-02 14:50:54.229369 INFO [node_server] NodeServer loop stopped
+2018-Mar-02 14:50:54.230518 INFO [daemon] p2p net loop stopped
+2018-Mar-02 14:50:54.230804 INFO [daemon] Stopping core rpc server...
+2018-Mar-02 14:50:54.231149 INFO [daemon] Deinitializing core...
+2018-Mar-02 14:50:54.231794 INFO [miner] Mining has been stopped, 0 finished
+2018-Mar-02 14:50:54.232272 INFO [Blockchain] Saving blockchain...
+2018-Mar-02 14:50:54.232642 INFO [BlockCacheSerializer] - saving block index...
+2018-Mar-02 14:50:54.232919 INFO [BlockCacheSerializer] - saving transaction map...
+2018-Mar-02 14:50:54.233159 INFO [BlockCacheSerializer] - saving spent keys...
+2018-Mar-02 14:50:54.233390 INFO [BlockCacheSerializer] - saving outputs...
+2018-Mar-02 14:50:54.233598 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Mar-02 14:50:54.233790 INFO [BlockCacheSerializer] - saving deposit index...
+2018-Mar-02 14:50:54.234059 INFO [BlockCacheSerializer] Serialization time: 1ms
+2018-Mar-02 14:50:54.234261 INFO [Blockchain] Saving blockchain indices...
+2018-Mar-02 14:50:54.234441 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2018-Mar-02 14:50:54.234579 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2018-Mar-02 14:50:54.234810 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2018-Mar-02 14:50:54.234977 INFO [daemon] Deinitializing p2p...
+2018-Mar-02 14:50:54.236029 INFO [miner] Mining has been stopped, 0 finished
+2018-Mar-02 14:50:54.236842 INFO [daemon] Node stopped.
