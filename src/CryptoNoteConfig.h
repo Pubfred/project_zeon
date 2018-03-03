@@ -97,8 +97,8 @@ const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000)
 
 const char     CRYPTONOTE_NAME[]                             = "ZEON";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180ade204029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101a72911423b38f6b9fa5515458af1aab84b6870747038a650b363f85ace58da1c";
-const uint32_t GENESIS_NONCE                                 = 70;
-const uint64_t GENESIS_TIMESTAMP                             = 1496764095;
+const uint32_t GENESIS_NONCE                                 = 2162670850;
+const uint64_t GENESIS_TIMESTAMP                             = 1520058481;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
