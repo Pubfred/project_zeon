@@ -42,7 +42,8 @@ const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(100);   
 
 const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
-const size_t   DIFFICULTY_WINDOW                             = 70; // blocks
+const size_t   DIFFICULTY_WINDOW                             = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;
+const size_t   DIFFICULTY_WINDOW_2                           = 70; // blocks
 const size_t   DIFFICULTY_CUT                                = 60;  // timestamps to cut after sorting
 const size_t   DIFFICULTY_LAG                                = 15;
 
@@ -92,13 +93,14 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 const uint64_t START_BLOCK_REWARD                            = (UINT64_C(10000) * parameters::POINT);
 const uint64_t ICO_BLOCK_REWARD	                             = (UINT64_C(8446744) * parameters::COIN); 
+
 const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(100) * parameters::COIN);
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(264000));
 
 const char     CRYPTONOTE_NAME[]                             = "ZEON";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180ade204029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101a72911423b38f6b9fa5515458af1aab84b6870747038a650b363f85ace58da1c";
-const uint32_t GENESIS_NONCE                                 = 70;
-const uint64_t GENESIS_TIMESTAMP                             = 1496764095;
+const uint32_t GENESIS_NONCE                                 = 2162670850;
+const uint64_t GENESIS_TIMESTAMP                             = 1520058481;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
